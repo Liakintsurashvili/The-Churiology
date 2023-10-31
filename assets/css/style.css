@@ -34,8 +34,7 @@ header a {
 header p{
   font-family: 'Dancing Script', cursive;
   letter-spacing: 3px;
-  font-size: 15px;
-  padding-bottom: 1rem;
+  font-size: 15px; 
 }
 h1 {
   text-transform: uppercase;
@@ -54,6 +53,25 @@ h1 {
 }
 .active {
   border-bottom: 1px solid #1c1c1c;
+}
+/* navbar styles */
+nav {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  display: none;
+  top: 100%;
+}
+#nav-toggle:checked~nav {
+  display: block;
+}
+#nav-toggle {
+  display: none;
+}
+.nav-toggle-label {
+  font-size: large;
 }
 /* main content */
 main {
