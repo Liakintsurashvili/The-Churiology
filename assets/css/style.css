@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
   min-height: 100vh !important;
   }
@@ -56,13 +55,14 @@ h1 {
 }
 /* navbar styles */
 nav {
-  position: absolute;
+  position: relative;
   background-color: #fff;
   width: 100%;
   left: 0;
   padding: 0 1rem;
   display: none;
   top: 100%;
+  width: 100%;
 }
 #nav-toggle:checked~nav {
   display: block;
@@ -81,4 +81,23 @@ main {
 /* footer */
 footer {
   background-color: blueviolet;
+}
+/* Media query for tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+  #menu {
+    display: flex;
+  }
+.nav-toggle-label {
+  display: none;
+}
+
+  
 }
