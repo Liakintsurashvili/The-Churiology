@@ -81,7 +81,8 @@ main {
 }
 /* footer */
 footer {
-  background-color: blueviolet;
+  background-color: rgb(173, 224, 199);
+  width: 100%;
 }
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -112,5 +113,8 @@ header p {
   letter-spacing: 3px;
   text-align: center;
 }
-  
+  /* Large devices (992px and up, laptops and desktops) */
+  #nav-pages a:hover {
+    border-bottom: 1px solid #1c1c1c;
+  }
 }
