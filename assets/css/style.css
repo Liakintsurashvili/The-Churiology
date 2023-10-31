@@ -45,6 +45,16 @@ h1 {
   padding-top: 2rem;
   line-height: 2.1rem;
 }
+#nav-pages {
+  font-size: 110%;
+  list-style-type: none;
+}
+#nav-pages li {
+  margin-bottom: 0.5rem;
+}
+.active {
+  border-bottom: 1px solid #1c1c1c;
+}
 /* main content */
 main {
   background-color: rgb(0, 213, 255);
