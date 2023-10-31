@@ -34,13 +34,14 @@ header p{
   font-family: 'Dancing Script', cursive;
   letter-spacing: 3px;
   font-size: 15px; 
+  text-align: center;
 }
 h1 {
   text-transform: uppercase;
   color: #252525;
   text-align: center;
   font-size: large;
-  padding-top: 2rem;
+  margin-top: 2rem;
   line-height: 2.1rem;
 }
 #nav-pages {
@@ -98,6 +99,18 @@ footer {
 .nav-toggle-label {
   display: none;
 }
-
+#logo {
+  font-size: 320%;
+  line-height: 75px;
+  margin: 0 0.5rem;
+  letter-spacing: 4px;
+  margin-top: 4rem;
+}
+header p {
+  font-size: 200%;
+  line-height: 50px;
+  letter-spacing: 3px;
+  text-align: center;
+}
   
 }
