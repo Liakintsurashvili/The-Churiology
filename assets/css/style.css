@@ -13,9 +13,8 @@ body {
   color: #1c1c1c;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
   min-height: 100vh !important;
+  margin: 0.5rem;
   }
 /* header */
 header {
@@ -41,7 +40,7 @@ h1 {
   color: #252525;
   text-align: center;
   font-size: large;
-  margin-top: 2rem;
+  margin-top: 1 2rem;
   line-height: 2.1rem;
 }
 #nav-pages {
@@ -80,9 +79,18 @@ main {
   flex: 1 0 auto;
 }
 /* footer */
-footer {
-  background-color: rgb(173, 224, 199);
-  width: 100%;
+#social-media {
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+
+}
+#social-media i {
+  font-size: 130%;
+  color:#1c1c1c
 }
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
