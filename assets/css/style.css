@@ -7,7 +7,7 @@
 }
 /* General styles */
 body {
-  font-family: 'Noto Serif', serif;
+  font-family:'Cinzel', serif;
   font-size: 14px;
   line-height: 1.8em;
   color: #1c1c1c;
@@ -79,19 +79,24 @@ main {
   flex: 1 0 auto;
 }
 /* footer */
-#social-media {
-  text-align: center;
-  padding: 10px 0;
+footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-evenly;
+  color: #1c1c1c;
+  padding: 20px 0;
+}
+#social-media {
   list-style-type: none;
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  color: #1c1c1c;
 }
 #social-media i {
-  font-size: 130%;
-  color:#1c1c1c
+  color: #1c1c1c;
 }
+
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
@@ -102,8 +107,8 @@ main {
     padding-right: 1rem;
     padding-top: 1rem;
   }
-  #menu {
-    display: flex;
+  #nav-toggle {
+    display: none;
   }
 .nav-toggle-label {
   display: none;
