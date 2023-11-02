@@ -13,6 +13,7 @@ body {
   color: #1c1c1c;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-height: 100vh !important;
   margin: 0.5rem;
   }
@@ -43,16 +44,6 @@ h1 {
   margin-top: 1 2rem;
   line-height: 2.1rem;
 }
-#nav-pages {
-  font-size: 110%;
-  list-style-type: none;
-}
-#nav-pages li {
-  margin-bottom: 0.5rem;
-}
-.active {
-  border-bottom: 1px solid #1c1c1c;
-}
 /* navbar styles */
 nav {
   position: relative;
@@ -63,6 +54,16 @@ nav {
   display: none;
   top: 100%;
   width: 100%;
+}
+#nav-pages {
+  font-size: 110%;
+  list-style-type: none;
+}
+#nav-pages li {
+  margin-bottom: 0.5rem;
+}
+.active {
+  border-bottom: 1px solid #1c1c1c;
 }
 #nav-toggle:checked~nav {
   display: block;
@@ -75,8 +76,14 @@ nav {
 }
 /* main content */
 main {
-  background-color: rgb(0, 213, 255);
   flex: 1 0 auto;
+  }
+#hero {
+  padding: 3rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 400px;
+  background: url("../img/hero.webp") no-repeat center;
 }
 /* footer */
 footer {
@@ -126,8 +133,11 @@ header p {
   letter-spacing: 3px;
   text-align: center;
 }
-  /* Large devices (992px and up, laptops and desktops) */
-  #nav-pages a:hover {
+#hero {
+  height: 600px;
+}
+ /* Large devices (992px and up, laptops and desktops) */
+ #nav-pages a:hover {
     border-bottom: 1px solid #1c1c1c;
   }
 }
