@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh !important;
-  margin: 0.5rem;
+  margin: 0.5rem
   }
 /* header */
 header {
@@ -74,10 +74,12 @@ nav {
 /* main content */
 main {
   flex: 1 0 auto;
-  }
+}
 #hero {
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1140px;
+}
+.hero-image {
   height: 400px;
   background: url("../img/hero.webp") no-repeat center;
 }
@@ -88,16 +90,31 @@ h2 {
   font-size: x-large;
   font-weight: 700;
   margin-top: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
 }
 p {
-  letter-spacing: 3px;
-  font-size: 15px;
   padding-top: 2rem;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 3px;
 }
 .history {
   background-color: aquamarine;
+}
+.intro {
+  color: #b52107ca;
+  font-size: large;
+  font-family:'Dancing Script', cursive;
+}
+.container {
+  background-color: cadetblue;
+  max-width: 1140px;
   margin: 0 auto;
-  max-width: 1000px;
+  text-align: justify;
+}
+.left {
+  width:100%
 }
 
 /* footer */
@@ -148,8 +165,11 @@ header p {
   letter-spacing: 3px;
   text-align: center;
 }
-#hero {
+.hero-image {
   height: 600px;
+}
+.churi {
+  max-width: 1140px;
 }
  /* Large devices (992px and up, laptops and desktops) */
  #nav-pages a:hover {
