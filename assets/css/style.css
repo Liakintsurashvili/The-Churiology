@@ -97,7 +97,11 @@ p {
   padding-top: 2rem;
   font-size: 15px;
   text-align: center;
-  letter-spacing: 3px;
+}
+iframe {
+  width: 100%;
+  height: 315px;
+  padding: 20px 0;
 }
 .history {
   background-color: aquamarine;
@@ -107,16 +111,11 @@ p {
   font-size: large;
   font-family:'Dancing Script', cursive;
 }
-.container {
-  background-color: cadetblue;
-  max-width: 1140px;
-  margin: 0 auto;
-  text-align: justify;
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
 }
-.left {
-  width:100%
-}
-
 /* footer */
 footer {
   display: flex;
@@ -174,5 +173,12 @@ header p {
  /* Large devices (992px and up, laptops and desktops) */
  #nav-pages a:hover {
     border-bottom: 1px solid #1c1c1c;
+  }
+  iframe {
+    max-width: 800px;
+    height: 500px;
+    padding: 3em;
+    margin: o auto;
+    display: block;
   }
 }
