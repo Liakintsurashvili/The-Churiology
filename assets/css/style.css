@@ -75,28 +75,32 @@ nav {
 main {
   flex: 1 0 auto;
 }
-#hero {
-  margin: 0 auto;
-  max-width: 75%;
-}
-.hero-image {
-  height: 400px;
-  background: url("../img/hero.webp") no-repeat center;
-}
 h2 {
-  color: #b52107ca;
   text-align: center;
   position: relative;
   font-size: x-large;
-  font-weight: 700;
   margin-top: 2rem;
   padding-bottom: 2rem;
-  text-transform: uppercase;
+  color: #b52107ca;
+  font-weight: 500;
+}
+h3 {
+  text-align: start;
+  margin-top: 1em;
+  color: #b52107ca;
+  font-weight: 500;
 }
 p {
   padding-top: 2rem;
   font-size: 15px;
   text-align: center;
+}
+#hero {
+  margin: 0 auto;
+}
+.hero-image {
+  height: 400px;
+  background: url("../img/hero.webp") no-repeat center;
 }
 iframe {
   width: 100%;
@@ -110,34 +114,69 @@ iframe {
   font-size: large;
   font-family:'Dancing Script', cursive;
 }
-.responsive {
+#responsive {
   width: 100%;
   height: auto;
   max-width: 400px;
 }
+.left {
+  float: left;
+  padding-bottom: 10px;
+}
+.right {
+  float: right;
+  padding-bottom: 10px;
+}
 .churi-winemaking {
-background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
 .orange-wine {
 background-color: deeppink;
+}
+.sign-up {
+  background-color: #f29889ca;
+  color: #1c1c1c;
+  margin: 2em auto;
+  text-align: center;
+  border-radius: 4px;
+}
+.sign-up h3{
+  text-align: center;
+  padding-top: 1em;
+}
+.sign-up p {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.button {
+  background-color: #f5eeee;
+  color: #1c1c1c;
+  border-radius: 6px;
+  font-size: 24px;
+  display: inline-block;
+  padding: 15px 32px;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+.button:hover {
+  background-color:#9a9292;
 }
 /* footer */
 footer {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
-  color: #1c1c1c;
-  padding: 20px 0;
+  background-color: #1c1c1c;
+  color: #abb8c3;
 }
 #social-media {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
-  color: #1c1c1c;
 }
 #social-media i {
-  color: #1c1c1c;
+  color: #abb8c3;
 }
 
 /* Media query for tablets and larger (768px and up) */
@@ -150,7 +189,6 @@ footer {
     padding-right: 1rem;
     padding-top: 1rem;
     margin-bottom: 2rem;
-    
   }
   #nav-pages li {
     display: inline;
@@ -177,19 +215,34 @@ header p {
 .hero-image {
   height: 600px;
 }
-.churi {
-  max-width: 75%;
 }
  /* Large devices (992px and up, laptops and desktops) */
- #nav-pages a:hover {
-    border-bottom: 1px solid #1c1c1c;
+ @media screen and (min-width: 992px) {
+#hero {
+  max-width: 75%;
+}
+#nav-pages a:hover {
+  border-bottom: 1px solid #1c1c1c;
   }
-  iframe {
-    max-width: 800px;
-    height: 500px;
-    padding: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+iframe {
+  max-width: 800px;
+  height: 500px;
+  padding: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   }
+.winemaking {
+    max-width: 75%;
+   margin: 0 auto;
+  }
+.churi-winemaking {
+  min-height: 400px;
+}
+.orange-wine {
+  min-height: 300px;
+}
+.sign-up {
+  max-width: 75%;
+}
 }
