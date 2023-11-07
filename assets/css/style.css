@@ -1,6 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Dancing+Script:wght@500&family=Noto+Serif:wght@100;200;300;400;500;600;700&display=swap');
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -20,15 +20,16 @@ body {
 /* header */
 header {
   font-family: 'Cinzel', serif;
-  padding: 0 1rem;
   position: relative;
   z-index: 99;
   font-weight: 400;
   letter-spacing: 2px;
+  background-color: #d6ccc2;
+  box-shadow: 0 5 30 0 rgba(0, 0, 0, .5);
 }
 header a {
   text-decoration: none;
-  color: inherit; 
+  color: #1c1c1c;
 }
 header p{
   font-family: 'Dancing Script', cursive;
@@ -36,7 +37,7 @@ header p{
   font-size: 15px; 
   text-align: center;
   padding-top: 0%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 h1 {
   text-transform: uppercase;
@@ -52,12 +53,12 @@ nav {
   margin: 0 auto;
 }
 #nav-pages {
-  font-size: 110%;
+  font-size: 130%;
   list-style-type: none;
-  
 }
 #nav-pages li {
   margin-bottom: 0.5rem;
+  padding-inline: 25px;
 }
 .active {
   border-bottom: 1px solid #1c1c1c;
@@ -96,7 +97,7 @@ p {
   text-align: center;
 }
 #hero {
-  margin: 0 auto;
+  margin: 5px auto;
 }
 .hero-image {
   height: 400px;
@@ -249,7 +250,7 @@ footer a {
   line-height: 75px;
   margin: 0 0.5rem;
   letter-spacing: 4px;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 header p {
   font-size: 200%;
@@ -267,7 +268,7 @@ header p {
   max-width: 75%;
 }
 #nav-pages a:hover {
-  border-bottom: 1px solid #1c1c1c;
+  color: #9a9292;
   }
 iframe {
   max-width: 800px;
