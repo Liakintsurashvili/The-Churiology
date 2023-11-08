@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Dancing+Script:wght@500&family=Noto+Serif:wght@100;200;300;400;500;600;700&display=swap');
+/* */
 * {
   padding: 0;
   margin: 0;
@@ -75,6 +76,9 @@ nav {
 /* main content */
 main {
   flex: 1 0 auto;
+  background-image: url(../img/vineyardlandscape.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 h2 {
   text-align: center;
@@ -100,8 +104,10 @@ p {
   margin: 5px auto;
 }
 .hero-image {
+  background-image: url(../img/hero.webp);
   height: 400px;
-  background: url("../img/hero.webp") no-repeat center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 iframe {
   width: 100%;
@@ -266,6 +272,7 @@ header p {
  @media screen and (min-width: 992px) {
 #hero {
   max-width: 75%;
+  align-content: center;
 }
 #nav-pages a:hover {
   color: #9a9292;
