@@ -11,7 +11,7 @@ body {
   font-family:'Cinzel', serif;
   font-size: 14px;
   line-height: 1.8em;
-  color: #1c1c1c;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +30,7 @@ header {
 }
 header a {
   text-decoration: none;
-  color: #1c1c1c;
+  color: black;
 }
 header p{
   font-family: 'Dancing Script', cursive;
@@ -61,9 +61,6 @@ nav {
   margin-bottom: 0.5rem;
   padding-inline: 25px;
 }
-.active {
-  border-bottom: 1px solid #1c1c1c;
-}
 #nav-toggle:checked~nav {
   display: block;
 }
@@ -83,17 +80,18 @@ main {
 h2 {
   text-align: center;
   position: relative;
-  font-size: x-large;
+  font-size: 200%;
   margin-top: 2rem;
   padding-bottom: 2rem;
-  color: #b52107ca;
+  color:#800020;
   font-weight: 500;
 }
 h3 {
   text-align: start;
   margin-top: 1em;
-  color: #b52107ca;
+  color:#800020;
   font-weight: 500;
+  font-size: 150%;
 }
 p {
   padding-top: 2rem;
@@ -114,10 +112,10 @@ iframe {
   height: 315px;
 }
 .history {
-  background-color: aquamarine;
+  background-color: rgba(237, 237, 233, .7);
 }
 .intro {
-  color: #b52107ca;
+  color: #800020;
   font-size: large;
   font-family:'Dancing Script', cursive;
 }
@@ -135,14 +133,14 @@ iframe {
   padding-bottom: 10px;
 }
 .churi-winemaking {
-  background-color: cornflowerblue;
+  background-color: rgba(237, 237, 233, .7);
 }
 .orange-wine {
-background-color: deeppink;
+background-color: rgba(237, 237, 233, .7);
 }
 .sign-up {
-  background-color: #f29889ca;
-  color: #1c1c1c;
+  background-color: rgb(227, 213, 202);
+  color:black;
   margin: 2em auto;
   text-align: center;
   border-radius: 4px;
@@ -156,8 +154,8 @@ background-color: deeppink;
   padding-bottom: 20px;
 }
 .button {
-  background-color: #f5eeee;
-  color: #1c1c1c;
+  background-color: rgb(237, 237, 233);
+  color: black;
   border-radius: 6px;
   font-size: 24px;
   display: inline-block;
@@ -166,12 +164,12 @@ background-color: deeppink;
   text-decoration: none;
 }
 .button:hover {
-  background-color:#9a9292;
+  background-color: #fff;
 }
 /* footer */
 .footer {
   padding: 50px 30px 20px;
-  background-color: pink;
+  background-color: rgb(213, 189, 175);
 }
 footer a {
   text-decoration: none;
@@ -180,8 +178,11 @@ footer a {
   list-style-type: none;
 
 }
+#social-media i:hover {
+  color: #fff;
+}
 #social-media i {
-  color: #abb8c3;
+  color: black;
   font-size: x-large;
 }
 .container {
@@ -203,14 +204,14 @@ footer a {
   padding-bottom: 20px;
 }
 .footer-menu-link, .footer-contact-link{
-  color: #abb8c3;
+  color:black;
   transition: 0.3s;
 }
 .footer-menu-item {
   list-style-type: none;
 }
 .footer-contact-link:hover, .footer-menu-link:hover {
-  color:#9a9292;
+  color:#fff;
 }
 .footer-menu {
   height: 180px;
@@ -275,7 +276,7 @@ header p {
   align-content: center;
 }
 #nav-pages a:hover {
-  color: #9a9292;
+  color: #fff;
   }
 iframe {
   max-width: 800px;
