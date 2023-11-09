@@ -8,8 +8,9 @@
 }
 /* General styles */
 body {
-  font-family:'Cinzel', serif;
-  font-size: 14px;
+  font-family:'Noto Serif', serif;
+  font-size: 16px;
+  font-weight: 300;
   line-height: 1.8em;
   color: black;
   display: flex;
@@ -26,7 +27,6 @@ header {
   font-weight: 400;
   letter-spacing: 2px;
   background-color: #d6ccc2;
-  box-shadow: 0 5 30 0 rgba(0, 0, 0, .5);
 }
 header a {
   text-decoration: none;
@@ -41,6 +41,7 @@ header p{
   padding-bottom: 1%;
 }
 h1 {
+  font-family: 'Cinzel', serif;
   text-transform: uppercase;
   color: #252525;
   text-align: center;
@@ -54,6 +55,7 @@ nav {
   margin: 0 auto;
 }
 #nav-pages {
+  font-family: 'Cinzel', serif;
   font-size: 130%;
   list-style-type: none;
 }
@@ -78,25 +80,26 @@ main {
   background-size: cover;
 }
 h2 {
+  font-family: 'Cinzel', serif;
   text-align: center;
   position: relative;
+  padding: 5%;
   font-size: 200%;
-  margin-top: 2rem;
-  padding-bottom: 2rem;
   color:#800020;
   font-weight: 500;
 }
 h3 {
+  font-family: 'Cinzel', serif;
   text-align: start;
-  margin-top: 1em;
+  padding-top: 20px;
   color:#800020;
   font-weight: 500;
   font-size: 150%;
 }
 p {
   padding-top: 2rem;
-  font-size: 15px;
-  text-align: center;
+  font-size: 18px;
+  text-align: justify;
 }
 #hero {
   margin: 5px auto;
@@ -113,11 +116,14 @@ iframe {
 }
 .history {
   background-color: rgba(237, 237, 233, .7);
+  padding:0.5em ;
+  margin-top: 7%;
 }
 .intro {
   color: #800020;
-  font-size: large;
-  font-family:'Dancing Script', cursive;
+  font-size: x-large;
+  font-family:'Dancing Script';
+  text-align: center;
 }
 #responsive {
   width: 100%;
@@ -126,17 +132,21 @@ iframe {
 }
 .left {
   float: left;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 .right {
   float: right;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 .churi-winemaking {
   background-color: rgba(237, 237, 233, .7);
+  padding: 0.5em;
+  margin-bottom: 7%;
 }
 .orange-wine {
 background-color: rgba(237, 237, 233, .7);
+padding: 0.5em;
+margin-bottom: 7%;
 }
 .sign-up {
   background-color: rgb(227, 213, 202);
@@ -152,6 +162,7 @@ background-color: rgba(237, 237, 233, .7);
 .sign-up p {
   padding-top: 5px;
   padding-bottom: 20px;
+  text-align: center;
 }
 .button {
   background-color: rgb(237, 237, 233);
@@ -176,32 +187,31 @@ footer a {
 }
 #social-media {
   list-style-type: none;
-
+  padding-top: 10px;
 }
 #social-media i:hover {
   color: #fff;
 }
 #social-media i {
   color: black;
-  font-size: x-large;
+  font-size: 180%;
+  padding-bottom: 20px;
 }
 .container {
   max-width: 1300px;
-  margin: 0 auto
 }
 .footer-body {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   gap: 20px;
+  justify-content: space-between;
 }
 .footer-logo {
   padding-bottom: 10px;
-}
-.footer-subtitle {
-  padding-bottom: 10px;
-}
-.footer-title {
-  padding-bottom: 20px;
+  padding-left: 0%;
+  text-align: left;
+  color: #800020;
+  font-weight: 600;
 }
 .footer-menu-link, .footer-contact-link{
   color:black;
@@ -214,10 +224,12 @@ footer a {
   color:#fff;
 }
 .footer-menu {
+  font-family: 'Cinzel', serif;
   height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-top: 10px;
 }
 .footer-contact-link {
   display: flex;
@@ -268,6 +280,9 @@ header p {
 .hero-image {
   height: 600px;
 }
+.footer-body{
+  flex-direction: row;
+}
 }
  /* Large devices (992px and up, laptops and desktops) */
  @media screen and (min-width: 992px) {
@@ -278,8 +293,11 @@ header p {
 #nav-pages a:hover {
   color: #fff;
   }
+#responsive {
+  max-width: 40%;
+}
 iframe {
-  max-width: 800px;
+  max-width: 75%;
   height: 500px;
   padding: 3em;
   margin-left: auto;
@@ -288,7 +306,7 @@ iframe {
   }
 .winemaking {
     max-width: 75%;
-   margin: 0 auto;
+    margin: 0 auto;
   }
 .churi-winemaking {
   min-height: 400px;
