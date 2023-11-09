@@ -9,7 +9,7 @@
 /* General styles */
 body {
   font-family:'Noto Serif', serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.8em;
   color: black;
@@ -152,6 +152,7 @@ margin-bottom: 7%;
   background-color: rgb(227, 213, 202);
   color:black;
   margin: 2em auto;
+  font-family: 'Cinzel', serif;
   text-align: center;
   border-radius: 4px;
 }
