@@ -58,6 +58,7 @@ nav {
   font-family: 'Cinzel', serif;
   font-size: 130%;
   list-style-type: none;
+  
 }
 #nav-pages li {
   margin-bottom: 0.5rem;
@@ -173,11 +174,6 @@ iframe {
   background-color: #fff;
 }
 /* main content for grapevarieties.html */
-.grape-varieties {
-  background-image: url(../img/churivector.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-}
 .hero-image-2 {
   background-image: url(../img/georgia.webp);
   height: 400px;
@@ -189,6 +185,11 @@ iframe {
     background-color: rgba(237, 237, 233, .7);
     padding: 0.5em;
     margin-bottom: 7%;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
 }
 /* footer */
 .footer {
@@ -298,13 +299,19 @@ header p {
 }
 .reds, .whites {
   display: flex;
-  
-  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .red-wine, .white-wine {
   max-width: 45%;
   padding: 0 5%;
+}
+.responsive {
+  max-width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3em;
 }
 }
  /* Large devices (992px and up, laptops and desktops) */
