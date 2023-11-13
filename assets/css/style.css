@@ -184,7 +184,7 @@ iframe {
   background-repeat: no-repeat;
   margin: 0.5% auto 7%;
 }
-.wine-regions, .imereti, .white-wine, .red-wine{
+.wine-regions, .imereti, .white-wine, .red-wine, .wineries, .winery-list-item{
     background-color: rgba(237, 237, 233, .7);
     padding: 0.5em;
     margin-bottom: 7%;
@@ -308,7 +308,7 @@ header p {
 .footer-body{
   flex-direction: row;
 }
-.reds, .whites {
+.reds, .whites, .winery-list-item{
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -345,7 +345,7 @@ iframe {
   margin-right: auto;
   display: block;
   }
-.winemaking {
+.winemaking, .grape-varieties {
     max-width: 75%;
     margin: 0 auto;
   }
@@ -357,9 +357,5 @@ iframe {
 }
 .sign-up {
   max-width: 75%;
-}
-.grape-varieties {
-  max-width: 75%;
-  margin: 0 auto;
 }
 }
