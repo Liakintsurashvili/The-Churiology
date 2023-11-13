@@ -19,6 +19,9 @@ body {
   min-height: 100vh !important;
   margin: 0.5rem
   }
+  #background {
+    background-color: FDFBF5;
+  }
 /* header */
 header {
   font-family: 'Cinzel', serif;
@@ -191,6 +194,14 @@ iframe {
   height: auto;
   max-width: 400px;
 }
+/* main content for wineries.html */
+.hero-image-3 {
+  background-image: url(../img/vineyard2.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0.5% auto 7%;
+}
 /* footer */
 .footer {
   padding: 50px 30px 20px;
@@ -291,7 +302,7 @@ header p {
   letter-spacing: 3px;
   text-align: center;
 }
-.hero-image, .hero-image-2 {
+.hero-image, .hero-image-2, .hero-image-3 {
   height: 600px;
 }
 .footer-body{
