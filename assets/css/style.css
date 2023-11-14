@@ -1,14 +1,16 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Dancing+Script:wght@500&family=Noto+Serif:wght@100;200;300;400;500;600;700&display=swap');
+
 /* Asterisk selector */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 /* General styles */
 body {
-  font-family:'Noto Serif', serif;
+  font-family: 'Noto Serif', serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.8em;
@@ -18,10 +20,12 @@ body {
   justify-content: center;
   min-height: 100vh !important;
   margin: 0.5rem
-  }
-  #background {
-    background-color: #FDFBF5;
-  }
+}
+
+#background {
+  background-color: #FDFBF5;
+}
+
 /* Header */
 header {
   font-family: 'Cinzel', serif;
@@ -31,18 +35,21 @@ header {
   letter-spacing: 2px;
   background-color: #d6ccc2;
 }
+
 header a {
   text-decoration: none;
   color: black;
 }
-header p{
+
+header p {
   font-family: 'Dancing Script', cursive;
   letter-spacing: 3px;
-  font-size: 15px; 
+  font-size: 15px;
   text-align: center;
   padding-top: 0%;
   padding-bottom: 1%;
 }
+
 h1 {
   font-family: 'Cinzel', serif;
   text-transform: uppercase;
@@ -57,60 +64,71 @@ nav {
   position: relative;
   margin: 0 auto;
 }
+
 #nav-pages {
   font-family: 'Cinzel', serif;
   font-size: 130%;
   list-style-type: none;
-  
 }
+
 #nav-pages li {
   margin-bottom: 0.5rem;
   padding-inline: 25px;
 }
+
 #nav-toggle:checked~nav {
   display: block;
 }
+
 #nav-toggle {
   display: none;
 }
+
 .nav-toggle-label {
   font-size: large;
 }
+
 /* Main content */
 main {
   flex: 1 0 auto;
 }
+
 /* Main content for home */
 .home {
   background-image: url(../img/vineyardlandscape.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
+
 h2 {
   font-family: 'Cinzel', serif;
   text-align: center;
   position: relative;
   padding: 5%;
   font-size: 200%;
-  color:#800020;
+  color: #800020;
   font-weight: 500;
 }
+
 h3 {
   font-family: 'Cinzel', serif;
   text-align: start;
   padding-top: 20px;
-  color:#800020;
+  color: #800020;
   font-weight: 500;
   font-size: 150%;
 }
+
 p {
   padding-top: 2rem;
   font-size: 18px;
   text-align: justify;
 }
+
 #hero {
   margin: 0.5% auto;
 }
+
 .hero-image {
   background-image: url(../img/hero.webp);
   height: 400px;
@@ -118,49 +136,63 @@ p {
   background-repeat: no-repeat;
   margin-bottom: 5%;
 }
+
 iframe {
   width: 100%;
   height: 315px;
 }
+
 .intro {
   color: #800020;
   font-size: x-large;
-  font-family:'Dancing Script';
+  font-family: 'Dancing Script';
   text-align: center;
 }
+
 #responsive {
   width: 100%;
   height: auto;
   max-width: 400px;
 }
-.left, .responsive-1 {
+
+.left,
+.responsive-1 {
   float: left;
 }
-.right, .responsive-2 {
+
+.right,
+.responsive-2 {
   float: right;
 }
-.churi-winemaking, .orange-wine, .history {
+
+.churi-winemaking,
+.orange-wine,
+.history {
   background-color: rgba(237, 237, 233, .7);
   padding: 0.5em;
   margin-bottom: 5%;
 }
+
 .sign-up {
   background-color: rgb(227, 213, 202);
-  color:black;
+  color: black;
   margin: 2em auto;
   font-family: 'Cinzel', serif;
   text-align: center;
   border-radius: 4px;
 }
-.sign-up h3{
+
+.sign-up h3 {
   text-align: center;
   padding-top: 1em;
 }
+
 .sign-up p {
   padding-top: 5px;
   padding-bottom: 20px;
   text-align: center;
 }
+
 .button {
   background-color: rgb(237, 237, 233);
   color: black;
@@ -171,6 +203,7 @@ iframe {
   margin-bottom: 1em;
   text-decoration: none;
 }
+
 /* Main content for Grape Varieties */
 .hero-image-2 {
   background-image: url(../img/georgia.webp);
@@ -179,16 +212,22 @@ iframe {
   background-repeat: no-repeat;
   margin: 0.5% auto 7%;
 }
-.wine-regions, .imereti, .white-wine, .red-wine {
-    background-color: rgba(237, 237, 233, .7);
-    padding: 0.5em;
-    margin-bottom: 7%;
+
+.wine-regions,
+.imereti,
+.white-wine,
+.red-wine {
+  background-color: rgba(237, 237, 233, .7);
+  padding: 0.5em;
+  margin-bottom: 7%;
 }
+
 .responsive {
   width: 100%;
   height: auto;
   max-width: 400px;
 }
+
 /* Main content for Wineries */
 .hero-image-3 {
   background-image: url(../img/vineyard2.jpg);
@@ -197,28 +236,35 @@ iframe {
   background-repeat: no-repeat;
   margin: 0.5% auto 7%;
 }
-.wineries, .winery-list-item {
+
+.wineries,
+.winery-list-item {
   background-color: rgba(237, 237, 233, .7);
-    padding: 0.5em;
-    margin-bottom: 7%;
+  padding: 0.5em;
+  margin-bottom: 7%;
 }
-.responsive-1, .responsive-2 {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
+
+.responsive-1,
+.responsive-2 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
 }
+
 /* Main content for Join us! */
 #sign-up-page {
   background-image: url(../img/winerybackground.jpg);
   background-size: cover;
   min-height: 90vh;
 }
+
 #sign-up-form {
   color: #800020;
   background-color: rgba(237, 237, 233, .7);
   padding: 30px;
   margin-top: 5px;
 }
+
 .text-input {
   background: transparent;
   width: 100%;
@@ -228,6 +274,7 @@ iframe {
   border: 1px solid #9a9292;
   border-radius: 6px;
 }
+
 .submit-button {
   color: #800020;
   border: 1px solid #9a9292;
@@ -236,32 +283,39 @@ iframe {
   font-size: 30px;
   font-family: 'Cinzel', serif;
 }
+
 /* Footer */
 .footer {
   padding: 50px 30px 20px;
   background-color: rgb(213, 189, 175);
 }
+
 footer a {
   text-decoration: none;
 }
+
 #social-media {
   list-style-type: none;
   padding-top: 10px;
 }
+
 #social-media i {
-  color: black;
+  color: rgba(50, 50, 49, 0.7);
   font-size: 180%;
   padding-bottom: 20px;
 }
+
 .container {
   max-width: 1300px;
 }
+
 .footer-body {
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: space-between;
 }
+
 .footer-logo {
   padding-bottom: 10px;
   padding-left: 0%;
@@ -269,13 +323,17 @@ footer a {
   color: #800020;
   font-weight: 600;
 }
-.footer-menu-link, .footer-contact-link{
-  color:black;
+
+.footer-menu-link,
+.footer-contact-link {
+  color: black;
   transition: 0.3s;
 }
+
 .footer-menu-item {
   list-style-type: none;
 }
+
 .footer-menu {
   font-family: 'Cinzel', serif;
   height: 180px;
@@ -284,22 +342,27 @@ footer a {
   justify-content: space-around;
   padding-top: 10px;
 }
+
 .footer-contact-link {
   display: flex;
   align-items: center;
 }
+
 .footer-contact-subtitle {
   font-family: 'Cinzel', serif;
   padding-top: 10px;
   max-width: 200px;
 }
+
 .footer-copy {
   padding-top: 50px;
   font-size: 12px;
   text-align: center;
 }
+
 /*media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
   /* Header */
   nav {
     display: block;
@@ -309,123 +372,159 @@ footer a {
     padding-top: 1rem;
     margin-bottom: 2rem;
   }
+
   #nav-pages li {
     display: inline;
   }
+
   #nav-toggle {
     display: none;
   }
-.nav-toggle-label {
-  display: none;
-}
-#logo {
-  font-size: 320%;
-  line-height: 75px;
-  margin: 0 0.5rem;
-  letter-spacing: 4px;
-  margin-top: 2rem;
-}
-header p {
-  font-size: 200%;
-  line-height: 50px;
-  letter-spacing: 3px;
-  text-align: center;
-}
-/* Main */
-.hero-image, .hero-image-2, .hero-image-3 {
-  height: 600px;
-}
-.left, .responsive-1 {
-  padding-right: 10px;
-}
-.right, .responsive-2 {
-  padding-left: 10px;
-}
-.button:hover {
-  background-color: #fff;
-  color: #9a9292;
-}
-/* footer */
-.footer-contact-link:hover, .footer-menu-link:hover {
-  color:#fff;
-}
-#social-media i:hover {
-  color: #fff;
-}
-.footer-body{
-  flex-direction: row;
-}
-/* Grape Varieties */
-.reds, .whites{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.red-wine, .white-wine {
-  max-width: 45%;
-  padding: 0 5%;
-}
-/* wineries */
-.responsive {
-  max-width: 65%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 3em;
-}
-.responsive-1, .responsive-2 {
-  max-width: 40%;
-}
-/* Form page */
-#sign-up-page {
-  position: relative;
-}
-#sign-up-form {
-  max-width: 600px;
-  position: absolute;
-  left: 20%;
-  top: 150px;
-}
-.submit-button:hover {
-  background-color:#fff;
-  color: #9a9292;
-}
-}
- /* Large devices (992px and up, laptops and desktops) */
- @media screen and (min-width: 992px) {
-.box {
-  max-width: 75%;
-  margin: 0 auto;
-}
-#hero {
-  align-content: center;
-}
-#nav-pages a:hover {
-  color: #fff;
+
+  .nav-toggle-label {
+    display: none;
   }
-#responsive {
-  max-width: 40%;
-}
-iframe {
-  max-width: 75%;
-  height: 500px;
-  padding: 3em;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+
+  #logo {
+    font-size: 320%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+    letter-spacing: 4px;
+    margin-top: 2rem;
   }
-.churi-winemaking {
-  min-height: 400px;
+
+  header p {
+    font-size: 200%;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  /* Main */
+  .hero-image,
+  .hero-image-2,
+  .hero-image-3 {
+    height: 600px;
+  }
+
+  .left,
+  .responsive-1 {
+    padding-right: 10px;
+  }
+
+  .right,
+  .responsive-2 {
+    padding-left: 10px;
+  }
+
+  .button:hover {
+    background-color: #fff;
+    color: #9a9292;
+  }
+
+  /* footer */
+  .footer-contact-link:hover,
+  .footer-menu-link:hover {
+    color: #fff;
+  }
+
+  #social-media i:hover {
+    color: #fff;
+  }
+
+  .footer-body {
+    flex-direction: row;
+  }
+
+  /* Grape Varieties */
+  .reds,
+  .whites {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .red-wine,
+  .white-wine {
+    max-width: 45%;
+    padding: 0 5%;
+  }
+
+  /* wineries */
+  .responsive {
+    max-width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3em;
+  }
+
+  .responsive-1,
+  .responsive-2 {
+    max-width: 40%;
+  }
+
+  /* Form page */
+  #sign-up-page {
+    position: relative;
+  }
+
+  #sign-up-form {
+    max-width: 600px;
+    position: absolute;
+    left: 20%;
+    top: 150px;
+  }
+
+  .submit-button:hover {
+    background-color: #fff;
+    color: #9a9292;
+  }
 }
-.orange-wine {
-  min-height: 300px;
-}
-.winery-list-item {
-  min-height: 300px;
-}
-#sign-up-page {
-  max-width: 75%;
-  min-height: 120vh;
-  margin: 0 auto;
-}
+
+/* Large devices (992px and up, laptops and desktops) */
+@media screen and (min-width: 992px) {
+  .box {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  #hero {
+    align-content: center;
+  }
+
+  #nav-pages a:hover {
+    color: #fff;
+  }
+
+  #responsive {
+    max-width: 40%;
+  }
+
+  iframe {
+    max-width: 75%;
+    height: 500px;
+    padding: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .churi-winemaking {
+    min-height: 400px;
+  }
+
+  .orange-wine {
+    min-height: 300px;
+  }
+
+  .winery-list-item {
+    min-height: 300px;
+  }
+
+  #sign-up-page {
+    max-width: 75%;
+    min-height: 120vh;
+    margin: 0 auto;
+  }
 }
