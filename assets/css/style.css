@@ -152,7 +152,8 @@ iframe {
   color: #800020;
   font-size: x-large;
   font-family: 'Dancing Script';
-  text-align: center;
+  justify-content: center;
+  width: 100%;
 }
 
 #responsive {
@@ -167,10 +168,7 @@ iframe {
   flex-direction: column;
 }
 
-.churi-winemaking-content {
-  width: 100%;
-}
-
+.churi-winemaking-content,
 .orange-wine-content {
   width: 100%;
 }
@@ -245,13 +243,7 @@ iframe {
   background-color: rgba(237, 237, 233, .7);
   padding: 0.5em;
   margin-bottom: 7%;
-}
-
-.responsive {
   width: 100%;
-  height: auto;
-  max-width: 400px;
-  padding-bottom: 1.5em;
 }
 
 /* Main content for Wineries */
@@ -264,17 +256,28 @@ iframe {
 }
 
 .wineries,
-.winery-list-item {
+.winery-list-item-1,
+.winery-list-item-2 {
   background-color: rgba(237, 237, 233, .7);
   padding: 0.5em;
   margin-bottom: 7%;
 }
 
-.responsive-1,
-.responsive-2 {
+.winery-list-item-1,
+.winery-list-item-2 {
   width: 100%;
-  height: auto;
-  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.responsive {
+  width: 100%;
+  align-self: center;
+}
+
+.responsive-content,
+.wineries {
+  width: 100%;
 }
 
 /* Main content for Join us! */
@@ -500,13 +503,17 @@ footer a {
     padding: 0 5%;
   }
 
-  /* wineries */
-  .responsive {
-    max-width: 65%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3em;
+  /* Wineries page */
+  .winery-list-item-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .winery-list-item-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   /* Form page */
@@ -551,13 +558,10 @@ footer a {
     display: block;
   }
 
-  .winery-list-item {
-    min-height: 300px;
-  }
-
   #sign-up-page {
     max-width: 75%;
     min-height: 120vh;
     margin: 0 auto;
   }
+
 }
