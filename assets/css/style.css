@@ -85,7 +85,9 @@ nav {
 }
 
 .nav-toggle-label {
-  font-size: large;
+  top: 1px;
+  position: absolute;
+  left: 5px;
 }
 
 /* Main content */
