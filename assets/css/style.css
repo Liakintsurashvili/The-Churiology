@@ -229,11 +229,6 @@ iframe {
   margin: 10% auto 7%;
 }
 
-.regions {
-  display: flex;
-  width: 100%;
-}
-
 .wines {
   width: 100%;
   display: flex;
@@ -472,7 +467,7 @@ footer a {
 
   .responsive {
     width: 100%;
-    max-width: 100%;
+    max-width: 75%;
     padding: 0 5%;
   }
 
