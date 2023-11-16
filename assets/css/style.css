@@ -218,6 +218,7 @@ iframe {
   padding: 15px 32px;
   margin-bottom: 1em;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Main content for Grape Varieties */
@@ -313,6 +314,7 @@ iframe {
   padding: 15px 25px;
   font-size: 30px;
   font-family: 'Cinzel', serif;
+  cursor: pointer;
 }
 
 /* main content for response page */
