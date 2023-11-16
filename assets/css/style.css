@@ -155,10 +155,11 @@ iframe {
   text-align: center !important;
 }
 
-#responsive {
+.responsive-image {
   width: 100%;
   height: auto;
   align-self: center;
+  max-width: 30rem;
 }
 
 .churi-winemaking,
@@ -459,10 +460,9 @@ footer a {
     height: 600px;
   }
 
-  #responsive {
+  .responsive-image {
     max-height: 400px;
     width: 100%;
-    max-width: 30rem;
     padding: 0 5%;
   }
 
