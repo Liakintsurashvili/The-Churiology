@@ -159,6 +159,7 @@ iframe {
 #responsive {
   width: 100%;
   height: auto;
+  max-width: 30rem;
 }
 
 .churi-winemaking,
@@ -461,6 +462,13 @@ footer a {
     max-height: 400px;
     width: 100%;
     padding: 0 5%;
+    align-self: center;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 50rem;
+    padding: 0 5% 10%;
     align-self: center;
   }
 
