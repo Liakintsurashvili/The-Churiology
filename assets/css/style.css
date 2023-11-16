@@ -281,7 +281,8 @@ iframe {
 }
 
 /* Main content for Join us! */
-#sign-up-page {
+#sign-up-page,
+#response-page {
   background-image: url(../img/winerybackground.jpg);
   background-size: cover;
   min-height: 90vh;
@@ -311,6 +312,17 @@ iframe {
   padding: 15px 25px;
   font-size: 30px;
   font-family: 'Cinzel', serif;
+}
+
+/* main content for response page */
+
+.response-page {
+  color: #252525;
+  background-color: rgba(237, 237, 233);
+  padding: 30px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border-color: #9a9292;
 }
 
 /* Footer */
@@ -517,7 +529,8 @@ footer a {
   }
 
   /* Form page */
-  #sign-up-page {
+  #sign-up-page,
+  #response-page {
     position: relative;
   }
 
@@ -531,6 +544,13 @@ footer a {
   .submit-button:hover {
     background-color: #fff;
     color: #9a9292;
+  }
+
+  .response-page {
+    max-width: 600px;
+    position: relative;
+    left: 20%;
+    top: 150px;
   }
 }
 
