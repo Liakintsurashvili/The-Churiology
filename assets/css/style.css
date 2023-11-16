@@ -301,13 +301,14 @@ iframe {
   height: 30px;
   margin-top: 5px;
   margin-bottom: 18px;
-  border: 1px solid #9a9292;
+  border: 1px solid #9d304c;
   border-radius: 6px;
 }
 
 .submit-button {
-  color: #800020;
-  border: 1px solid #9a9292;
+  color: #fff;
+  background-color: #9d304c;
+  border: 1px solid #9d304c;
   border-radius: 6px;
   padding: 15px 25px;
   font-size: 30px;
@@ -489,7 +490,7 @@ footer a {
 
   .button:hover {
     background-color: #fff;
-    color: #9a9292;
+    color: #800020;
   }
 
   /* footer */
@@ -550,7 +551,7 @@ footer a {
 
   .submit-button:hover {
     background-color: #fff;
-    color: #9a9292;
+    color: #800020;
   }
 
   .response-page {
