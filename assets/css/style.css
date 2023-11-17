@@ -327,6 +327,11 @@ iframe {
   border-color: #9a9292;
 }
 
+.response-page p {
+  font-size: 20px;
+  line-height: 2.1em;
+}
+
 /* Footer */
 .footer {
   padding: 50px 10px 10px;
