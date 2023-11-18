@@ -136,7 +136,8 @@ The grape Varieties page is split into four sections. The top section contains a
 
 ### Wineries Page
 
-The Wineries page consists of six image and paragraph sections providing information on must-visit wineries in the local area. This responsive layout was achieved using flexbox styles as well as @media queries.
+The Wineries page consists of six image and paragraph sections providing information on must-visit wineries in the local area. This responsive layout was achieved using flexbox styles as well as @media queries.The lowest section on the page consists of the Sign-up section.
+
 
 ### Join us! Page
 
@@ -149,12 +150,12 @@ Response page consists of a thank you message, that lets a customer know they ha
 
 ### Accessibility
 
-To ensure that the website is as accessible friendly as possible following steps have been take:
+To ensure that the website is as accessible friendly as possible following steps have been taken:
 
-- Using semantic HTML.
-- Using descriptive alt attributes on images on the site.
+- The use of semantic HTML.
+- The use of descriptive alt attributes on images on the site.
 - Contrasting color scheme throughout.
-- Ensuring menus are accessible by marking the current page as Active.
+- Marking the current page as Active to make the menu accessible.
 
 
 ### Technologies
@@ -168,7 +169,7 @@ To ensure that the website is as accessible friendly as possible following steps
 - Favicon- To create favicon
 - Am I Responsive - To show the website image on a range of devices.
 - Coolors- For color palette picking.
-- Shutterstock - Stock images.
+- Shutterstock - For stock images.
 
 
 ## Deployment
@@ -180,7 +181,7 @@ To ensure that the website is as accessible friendly as possible following steps
  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-  The live link can be found [here](https://https://liakintsurashvili.github.io/The-Churiology/)
+  The live link can be found [here](https://liakintsurashvili.github.io/The-Churiology/)
 
 
 ## Version Control
@@ -238,7 +239,7 @@ Commit History can be viewed [here](https://github.com/Liakintsurashvili/The-Chu
    - No errors or warnings were found when passing through the official W3C validator.
 
 
-  ![Home Page Validator](documentation/w3-validator-home-page.png)
+  [Home Page Validator](documentation/w3-validator-home-page.png)
 
 ### Grape Varieties Page
 
@@ -296,7 +297,7 @@ Commit History can be viewed [here](https://github.com/Liakintsurashvili/The-Chu
 ### Resources
 - [Code Institute]() HTML and CSS learning content and for providing the [template]() used to start this website.
 - [W3Schools](https://www.w3schools.com/) For general tips and advice on a variety of HTML and CSS.
-- README guides by [Kera Cudmore](https://github.com/kera-cudmore).
+- [Kera Cudmore](https://github.com/kera-cudmore) for README guides.
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for Footer inspiration.
 
 ### Acknowledgments
