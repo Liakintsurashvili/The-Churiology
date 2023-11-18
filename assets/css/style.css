@@ -14,7 +14,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.8em;
-  color: black;
+  color: #252525;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +38,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: black;
+  color: #252525;
 }
 
 header p {
@@ -188,7 +188,7 @@ iframe {
 
 .sign-up {
   background-color: rgb(227, 213, 202);
-  color: black;
+  color: #252525;
   margin: 10% auto;
   font-family: 'Cinzel', serif;
   text-align: center;
@@ -209,9 +209,9 @@ iframe {
 
 .button {
   background-color: rgb(237, 237, 233);
-  color: black;
+  color: #252525;
   border-radius: 6px;
-  font-size: 24px;
+  font-size: 18px;
   display: inline-block;
   padding: 15px 32px;
   margin-bottom: 1em;
